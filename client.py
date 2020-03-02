@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import socket
 
-HOST = "10.100.67.169"  # The server's hostname or IP address
-PORT = 65432  # The port used by the server
+HOST = "127.0.0.1"  # The server's hostname or IP address
+PORT = 2345  # The port used by the server
 buffer_size = 1024
 
 def creaMatriz(n):
